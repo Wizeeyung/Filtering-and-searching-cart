@@ -1,0 +1,29 @@
+.category-container{
+  margin-bottom: 40px;
+}
+
+.category-container h1{
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.radios input{
+  cursor: pointer;
+  margin: 0;
+}
+
+.radios{
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.radios label{
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+
+
+
+/* Mobile-responsiveness */

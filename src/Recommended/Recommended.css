@@ -1,0 +1,101 @@
+.recommended-container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 290px;
+  margin-top: 20px;
+  
+}
+.recommended-container h1{
+  font-size: 20px;
+}
+
+.icons button{
+  background-color: transparent;
+  border: 0;
+  border: 0.3px solid rgba(25, 24, 24, 0.3);
+  padding: 8px 12px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+
+.icons button.active{
+  background-color: green;
+  color: white;
+}
+
+.icons button:hover{
+  background-color: green;
+  color: white;
+}
+
+button.active{
+  background-color: green;
+  color: white;
+}
+
+button.notactive{
+  background-color: transparent;
+  color: unset;
+}
+
+
+
+/* Mobile Resonsiveness */
+@media all and (max-width: 420px) {
+  .recommended-container{
+    margin: 0;
+    align-items: center;
+    margin-bottom: 15px;
+   
+  }
+
+  .icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+  .recommended-container h1{
+    font-size: 14px;
+  }
+
+  button{
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  
+}
+
+
+
+
+/* ......Tablet Responsiveness........ */
+@media all and (max-width: 900px) {
+  .recommended-container{
+    margin: 0;
+    align-items: center;
+    margin-bottom: 15px;
+   
+  }
+
+  .icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+
+  .recommended-container h1{
+    font-size: 14px;
+  }
+
+  button{
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  
+}
